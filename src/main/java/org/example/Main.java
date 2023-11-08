@@ -42,7 +42,6 @@ public class Main {
                     }
                 }
 
-                // Выводим список имен на экран
                 for (String name : namesList) {
                     System.out.println(name);
                 }
