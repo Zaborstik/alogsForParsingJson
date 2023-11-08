@@ -1,0 +1,444 @@
+{
+  "name": "tabsfield",
+  "row": 7,
+  "col": 0,
+  "sizeX": 12,
+  "sizeY": 22,
+  "section": 1,
+  "isEmpty": false,
+  "label": "Tabs",
+  "groupId": null,
+  "type": "tabsContainer",
+  "tabs": [
+    {
+      "name": "Права",
+      "order": 0,
+      "widgets": [
+        {
+          "name": "spec_notes",
+          "row": 15,
+          "col": 0,
+          "sizeX": 12,
+          "sizeY": 3,
+          "section": 0,
+          "isEmpty": false,
+          "label": "Особые отметки из ЕГРН",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "restriction_egrn",
+          "row": 18,
+          "col": 0,
+          "sizeX": 12,
+          "sizeY": 3,
+          "section": 0,
+          "isEmpty": false,
+          "label": "Ограничения из ЕГРН",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "encumbrance",
+          "row": 0,
+          "col": 0,
+          "sizeX": 12,
+          "sizeY": 5,
+          "section": 0,
+          "isEmpty": false,
+          "label": "Обременения",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "exploitation_restriction",
+          "row": 10,
+          "col": 0,
+          "sizeX": 12,
+          "sizeY": 5,
+          "section": 0,
+          "isEmpty": false,
+          "label": "Ограничения в эксплуатации",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "circulation_restriction",
+          "row": 5,
+          "col": 0,
+          "sizeX": 12,
+          "sizeY": 5,
+          "section": 0,
+          "isEmpty": false,
+          "label": "Ограничения в обороте",
+          "groupId": null,
+          "type": "field"
+        }
+      ],
+      "groups": null
+    },
+    {
+      "name": "Основные средства",
+      "order": 1,
+      "widgets": [
+        {
+          "name": "fixed_assets",
+          "row": 0,
+          "col": 0,
+          "sizeX": 12,
+          "sizeY": 5,
+          "section": 1,
+          "isEmpty": false,
+          "label": "Основные средства",
+          "groupId": null,
+          "type": "field"
+        }
+      ],
+      "groups": null
+    },
+    {
+      "name": "Адресные данные",
+      "order": 2,
+      "widgets": [
+        {
+          "name": "address_rosreestr",
+          "row": 0,
+          "col": 0,
+          "sizeX": 8,
+          "sizeY": 3,
+          "section": 2,
+          "isEmpty": false,
+          "label": "Адрес (местоположение)",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "geocoordinates",
+          "row": 14,
+          "col": 0,
+          "sizeX": 4,
+          "sizeY": 1,
+          "section": 2,
+          "isEmpty": false,
+          "label": "\nКоординаты иных карт",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "coordinates_egrn",
+          "row": 3,
+          "col": 0,
+          "sizeX": 11,
+          "sizeY": 5,
+          "section": 2,
+          "isEmpty": false,
+          "label": "Координаты из ЕГРН",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "outside_railway",
+          "row": 13,
+          "col": 0,
+          "sizeX": 5,
+          "sizeY": 1,
+          "section": 2,
+          "isEmpty": false,
+          "label": "Вне границ станции",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "distance_from_highways",
+          "row": 14,
+          "col": 6,
+          "sizeX": 4,
+          "sizeY": 1,
+          "section": 2,
+          "isEmpty": false,
+          "label": "Удаленность от транспортной инфраструктуры",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "distance_from_center",
+          "row": 13,
+          "col": 6,
+          "sizeX": 4,
+          "sizeY": 1,
+          "section": 2,
+          "isEmpty": false,
+          "label": "Удаленность от центра населенного пункта",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "stations",
+          "row": 8,
+          "col": 0,
+          "sizeX": 11,
+          "sizeY": 5,
+          "section": 2,
+          "isEmpty": false,
+          "label": "Станции",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "address_from_gar",
+          "row": 1,
+          "col": 0,
+          "sizeX": 8,
+          "sizeY": 1,
+          "section": 2,
+          "isEmpty": null,
+          "label": "Адрес из ГАР",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "fact_placement",
+          "row": 2,
+          "col": 0,
+          "sizeX": 8,
+          "sizeY": 1,
+          "section": 2,
+          "isEmpty": false,
+          "label": "Фактическое местоположение",
+          "groupId": null,
+          "type": "field"
+        }
+      ],
+      "groups": null
+    },
+    {
+      "name": "Характеристики",
+      "order": 3,
+      "widgets": [],
+      "groups": null
+    },
+    {
+      "name": "Имущественные связи",
+      "order": 4,
+      "widgets": [
+        {
+          "name": "parent_type",
+          "row": 1,
+          "col": 0,
+          "sizeX": 4,
+          "sizeY": 1,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Тип родительского объекта",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "complex",
+          "row": 2,
+          "col": 0,
+          "sizeX": 4,
+          "sizeY": 1,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Наименование родительского объекта",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "ptk",
+          "row": 3,
+          "col": 0,
+          "sizeX": 4,
+          "sizeY": 1,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Наименование родительского объекта",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "enk",
+          "row": 5,
+          "col": 0,
+          "sizeX": 4,
+          "sizeY": 1,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Наименование родительского объекта",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "difficult_thing",
+          "row": 4,
+          "col": 0,
+          "sizeX": 4,
+          "sizeY": 1,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Наименование родительского объекта",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "rooms",
+          "row": 13,
+          "col": 6,
+          "sizeX": 5,
+          "sizeY": 5,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Помещения в составе Здания",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "parking_places",
+          "row": 18,
+          "col": 6,
+          "sizeX": 6,
+          "sizeY": 5,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Машино-места в составе Здания",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "parentobj",
+          "row": 0,
+          "col": 0,
+          "sizeX": 11,
+          "sizeY": 1,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Родительский объект",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "build_child_objects",
+          "row": 12,
+          "col": 0,
+          "sizeX": 12,
+          "sizeY": 1,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Объекты в составе",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "inseparable_violations",
+          "row": 24,
+          "col": 0,
+          "sizeX": 11,
+          "sizeY": 5,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Неотделимые улучшения",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "situated_on_land_plot",
+          "row": 7,
+          "col": 6,
+          "sizeX": 6,
+          "sizeY": 5,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Земельные участки",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "inseparable_violations_for_build",
+          "row": 23,
+          "col": 0,
+          "sizeX": 11,
+          "sizeY": 1,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Неотделимые улучшения Здания",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "movable_property",
+          "row": 30,
+          "col": 0,
+          "sizeX": 11,
+          "sizeY": 5,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Движимое имущество",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "movable_property_for_build",
+          "row": 29,
+          "col": 0,
+          "sizeX": 11,
+          "sizeY": 1,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Движимое имущество",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "rooms_in_build_from_egrn",
+          "row": 13,
+          "col": 0,
+          "sizeX": 6,
+          "sizeY": 5,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Помещения в составе Здания (из ЕГРН)",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "parking_places_build_egrn",
+          "row": 18,
+          "col": 0,
+          "sizeX": 6,
+          "sizeY": 5,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Машино-места в составе Здания (из ЕГРН)",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "build_is_situated_on_land_plot",
+          "row": 6,
+          "col": 0,
+          "sizeX": 12,
+          "sizeY": 1,
+          "section": 4,
+          "isEmpty": false,
+          "label": "Расположено на Земельном участке",
+          "groupId": null,
+          "type": "field"
+        },
+        {
+          "name": "land_plot_from_egrn_main_page",
+          "row": 7,
+          "col": 0,
+          "sizeX": 6,
+          "sizeY": 5,
+          "section": 6,
+          "isEmpty": false,
+          "label": "Расположен на Земельном участке (по данным ЕГРН)",
+          "groupId": null,
+          "type": "field"
+        }
+      ],
+      "groups": null
+    }
+  ]
+}
